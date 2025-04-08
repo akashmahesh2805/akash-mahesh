@@ -14,47 +14,48 @@
     <div class="logo">Akash Mahesh</div>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#resume">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="socials">
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/akash--mahesh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/akashmahesh2805" target="_blank"><i class="fab fa-github"></i></a>
     </div>
   </header>
 
   <section class="hero">
-    <img src="assets/img1.jpg" alt="Profile Picture" />
+    <div class="hero-img">
+      <img src="assets/img1.jpg" alt="Profile Picture" />
+    </div>
     <div class="intro">
       <h1>Hello, my name is <span class="highlight">Akash Mahesh</span></h1>
-      <p>I'm an Information Science and Engineering student at BMS College of Engineering, Bangalore. I am interested in Full Stack Web Development and Artificial Intelligence. I also love startups.</p>
-      <a href="#contact" class="btn">Hire Me</a>
+      <p>I'm an Information Science and Engineering student at BMS College of Engineering, Bangalore. I'm passionate about Full Stack Web Development and Artificial Intelligence. I also love startups.</p>
     </div>
   </section>
 
-  <section id="about" class="skills-overview">
+  <section id="skills" class="skills-overview">
     <h2>Skills Overview</h2>
-    <p>Here's a snapshot of my current web development skills. I'm always learning and building more.</p>
-
     <div class="skills-grid">
       <div class="skill-card">
         <i class="fas fa-code"></i>
-        <h3>Frontend</h3>
+        <h3>Web Development</h3>
         <ul>
-          <li>HTML / CSS / JS</li>
-          <li>React (basics)</li>
-          <li>Responsive Design</li>
+          <li>HTML / CSS / JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>FastAPI</li>
         </ul>
       </div>
       <div class="skill-card">
-        <i class="fas fa-server"></i>
-        <h3>Backend</h3>
+        <i class="fas fa-brain"></i>
+        <h3>AI / ML</h3>
         <ul>
-          <li>Python / Flask</li>
-          <li>Node.js (basics)</li>
+          <li>Python</li>
+          <li>Scikit-learn, NumPy, Pandas, Matplotlib</li>
+          <li>Basic Regression & Classification Models</li>
         </ul>
       </div>
       <div class="skill-card">
@@ -62,21 +63,67 @@
         <h3>Others</h3>
         <ul>
           <li>Git / GitHub</li>
+          <li>Linux</li>
           <li>Figma</li>
-          <li>Linux basics</li>
         </ul>
       </div>
     </div>
   </section>
 
+  <section id="projects" class="skills-overview">
+    <h2>Projects</h2>
+    <input type="text" id="searchInput" placeholder="Search..." />
+
+    <div id="projectList" class="project-grid">
+
+      <div class="project-card" data-skills="html css javascript portfolio">
+        <h3>Portfolio Website</h3>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://github.com/akashmahesh2805/portfolio" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card" data-skills="python fastapi websockets audio diary">
+        <h3>Real-Time Audio Diary</h3>
+        <p><strong>Skills:</strong> Python, FastAPI, WebSockets</p>
+        <a href="https://github.com/akashmahesh2805/audio-diary" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card" data-skills="rust html plotly genome">
+        <h3>Genome Alignment Visualizer</h3>
+        <p><strong>Skills:</strong> Rust, HTML, Plotly</p>
+        <a href="https://github.com/akashmahesh2805/genome-align" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card" data-skills="react nodejs mongodb startup">
+        <h3>Startup Collaboration Platform</h3>
+        <p><strong>Skills:</strong> React, Node.js, MongoDB</p>
+        <a href="https://github.com/akashmahesh2805/startup-collab" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card" data-skills="python sklearn matplotlib emotion">
+        <h3>Emotion Detection Model</h3>
+        <p><strong>Skills:</strong> Python, scikit-learn, Matplotlib</p>
+        <a href="https://github.com/akashmahesh2805/emotion-detector" target="_blank" class="btn">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="resume" class="skills-overview">
+    <h2>Resume</h2>
+    <p>You can download my resume below:</p>
+    <a href="assets/resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
   <footer class="footer" id="contact">
     <h3>Contact Me</h3>
-    <p>Email: yourname@email.com</p>
+    <p>Email: akashmahesh2805@gmail.com</p>
     <p>Connect on 
-      <a href="#">LinkedIn</a> • 
-      <a href="#">GitHub</a>
+      <a href="https://www.linkedin.com/in/akash--mahesh/" target="_blank">LinkedIn</a> • 
+      <a href="https://github.com/akashmahesh2805" target="_blank">GitHub</a>
     </p>
   </footer>
 
 </body>
+<script src="script.js"></script>
 </html>
