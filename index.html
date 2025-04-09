@@ -1,129 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akash Mahesh | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
-<body>
-
-  <header class="navbar">
-    <div class="logo">Akash Mahesh</div>
-    <nav>
-      <ul>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/akash--mahesh/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/akashmahesh2805" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="hero-img">
-      <img src="assets/img1.jpg" alt="Profile Picture" />
-    </div>
-    <div class="intro">
-      <h1>Hello, my name is <span class="highlight">Akash Mahesh</span></h1>
-      <p>I'm an Information Science and Engineering student at BMS College of Engineering, Bangalore. I'm passionate about Full Stack Web Development and Artificial Intelligence. I also love startups.</p>
-    </div>
-  </section>
-
-  <section id="skills" class="skills-overview">
-    <h2>Skills Overview</h2>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <i class="fas fa-code"></i>
-        <h3>Web Development</h3>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash Mahesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Akash Mahesh</div>
+      <nav>
         <ul>
-          <li>HTML / CSS / JavaScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>FastAPI</li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/akash--mahesh/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/akashmahesh2805" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
       </div>
-      <div class="skill-card">
-        <i class="fas fa-brain"></i>
-        <h3>AI / ML</h3>
-        <ul>
-          <li>Python</li>
-          <li>Scikit-learn, NumPy, Pandas, Matplotlib</li>
-          <li>Basic Regression & Classification Models</li>
-        </ul>
+    </header>
+
+    <section class="hero">
+      <div class="hero-img">
+        <img src="assets/img1.jpg" alt="Profile Picture" />
       </div>
-      <div class="skill-card">
-        <i class="fas fa-tools"></i>
-        <h3>Others</h3>
-        <ul>
-          <li>Git / GitHub</li>
-          <li>Linux</li>
-          <li>Figma</li>
-        </ul>
+      <div class="intro">
+        <h1>Hello, my name is <span class="highlight">Akash Mahesh</span></h1>
+        <p>
+          I'm an Information Science and Engineering student at BMS College of
+          Engineering, Bangalore. I'm passionate about Full Stack Web
+          Development and Artificial Intelligence. I also love startups.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects" class="skills-overview">
-    <h2>Projects</h2>
-    <input type="text" id="searchInput" placeholder="Search..." />
-
-    <div id="projectList" class="project-grid">
-
-      <div class="project-card" data-skills="html css javascript portfolio">
-        <h3>Portfolio Website</h3>
-        <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
-        <a href="https://github.com/akashmahesh2805/portfolio" target="_blank" class="btn">View Project</a>
+    <section id="skills" class="skills-overview">
+      <h2>Skills Overview</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML / CSS / JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>FastAPI</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-brain"></i>
+          <h3>AI / ML</h3>
+          <ul>
+            <li>Python</li>
+            <li>Scikit-learn, NumPy, Pandas, Matplotlib</li>
+            <li>Basic Regression & Classification Models</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-tools"></i>
+          <h3>Others</h3>
+          <ul>
+            <li>Git / GitHub</li>
+            <li>Linux</li>
+            <li>Figma</li>
+          </ul>
+        </div>
       </div>
+    </section>
 
-      <div class="project-card" data-skills="python fastapi websockets audio diary">
-        <h3>Real-Time Audio Diary</h3>
-        <p><strong>Skills:</strong> Python, FastAPI, WebSockets</p>
-        <a href="https://github.com/akashmahesh2805/audio-diary" target="_blank" class="btn">View Project</a>
+    <section id="projects" class="skills-overview">
+      <h2>Projects</h2>
+      <input type="text" id="searchInput" placeholder="Search..." />
+
+      <div id="projectList" class="project-grid">
+        <div class="project-card" data-skills="html css javascript portfolio">
+          <h3>Portfolio Website</h3>
+          <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+          <a
+            href="https://github.com/akashmahesh2805/akash-mahesh"
+            target="_blank"
+            class="btn"
+            >View Project</a
+          >
+        </div>
+
+        <div
+          class="project-card"
+          data-skills="python fastapi websockets audio diary"
+        >
+          <h3>Real-Time Audio Diary</h3>
+          <p><strong>Skills:</strong> Python, FastAPI, WebSockets</p>
+          <a
+            href="https://github.com/akashmahesh2805/audio-diary"
+            target="_blank"
+            class="btn"
+            >View Project</a
+          >
+        </div>
+
+        <div class="project-card" data-skills="rust html plotly css javascript network rust-network-viz">
+          <h3>Network Speed Monitor</h3>
+          <p>
+            A real-time network speed monitoring tool that helps you track your
+            internet performance over time. Built with Rust and JavaScript, this
+            tool provides beautiful visualizations and detailed statistics of
+            your network speeds.
+          </p>
+          <p><strong>Skills:</strong> Rust, Plotly, HTML, CSS, JavaScript</p>
+          <a
+            href="https://github.com/akashmahesh2805/rust-network-viz"
+            target="_blank"
+            class="btn"
+            >View Project</a
+          >
+        </div>
+
+        <div
+          class="project-card"
+          data-skills="python, ai, machine learning, naive bayes, scikit-learn fake-news-detector"
+        >
+          <h3>AI-Powered Fake News Detector</h3>
+          <p>
+            Full-stack fake news detection application that uses a TF-IDF
+            vectorizer and Multinomial Naive Bayes classifier to classify news
+            articles as real or fake based on their titles, with a Python
+            backend and a web frontend for user interaction.
+          </p>
+          <p>
+            <strong>Skills:</strong> Python, AI, Machine Learning, Naive Bayes,
+            scikit-learn
+          </p>
+          <a
+            href="https://github.com/akashmahesh2805/fake-news-detector"
+            target="_blank"
+            class="btn"
+            >View Project</a
+          >
+        </div>
+
+        <div
+          class="project-card"
+          data-skills="python sklearn matplotlib emotion audio-diary"
+        >
+          <h3>AI-based Audio Diary</h3>
+          <p>
+            An AI based voice diary that detects emotions in real time from
+            audio and plots a graph of emotions.
+          </p>
+          <p>
+            <strong>Skills:</strong> Python, AI, Machine Learning, scikit-learn,
+            Matplotlib
+          </p>
+          <a
+            href="https://github.com/akashmahesh2805/audio-diary"
+            target="_blank"
+            class="btn"
+            >View Project</a
+          >
+        </div>
       </div>
+    </section>
 
-      <div class="project-card" data-skills="rust html plotly genome">
-        <h3>Genome Alignment Visualizer</h3>
-        <p><strong>Skills:</strong> Rust, HTML, Plotly</p>
-        <a href="https://github.com/akashmahesh2805/genome-align" target="_blank" class="btn">View Project</a>
-      </div>
+    <section id="resume" class="skills-overview">
+      <h2>Resume</h2>
+      <p>You can download my resume below:</p>
+      <a href="assets/resume.pdf" class="btn" download>Download Resume</a>
+    </section>
 
-      <div class="project-card" data-skills="react nodejs mongodb startup">
-        <h3>Startup Collaboration Platform</h3>
-        <p><strong>Skills:</strong> React, Node.js, MongoDB</p>
-        <a href="https://github.com/akashmahesh2805/startup-collab" target="_blank" class="btn">View Project</a>
-      </div>
-
-      <div class="project-card" data-skills="python sklearn matplotlib emotion">
-        <h3>Emotion Detection Model</h3>
-        <p><strong>Skills:</strong> Python, scikit-learn, Matplotlib</p>
-        <a href="https://github.com/akashmahesh2805/emotion-detector" target="_blank" class="btn">View Project</a>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="resume" class="skills-overview">
-    <h2>Resume</h2>
-    <p>You can download my resume below:</p>
-    <a href="assets/resume.pdf" class="btn" download>Download Resume</a>
-  </section>
-
-  <footer class="footer" id="contact">
-    <h3>Contact Me</h3>
-    <p>Email: akashmahesh2805@gmail.com</p>
-    <p>Connect on 
-      <a href="https://www.linkedin.com/in/akash--mahesh/" target="_blank">LinkedIn</a> • 
-      <a href="https://github.com/akashmahesh2805" target="_blank">GitHub</a>
-    </p>
-  </footer>
-
-</body>
-<script src="script.js"></script>
+    <footer class="footer" id="contact">
+      <h3>Contact Me</h3>
+      <p>Email: akashmahesh2805@gmail.com</p>
+      <p>
+        Connect on
+        <a href="https://www.linkedin.com/in/akash--mahesh/" target="_blank"
+          >LinkedIn</a
+        >
+        •
+        <a href="https://github.com/akashmahesh2805" target="_blank">GitHub</a>
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>
